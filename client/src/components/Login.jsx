@@ -16,7 +16,7 @@ const Login = () => {
     },[])
 
   return (
-    <div className='absolute top-0 left-0 right-0 bottom-0 z-10 backdrop-blur-sm bg-black/25 flex justify-center items-center'>
+    <div className='absolute top-0 left-0 right-0 bottom-0 z-10 backdrop-blur-sm bg-black/33 flex justify-center items-center'>
     
     <form className='relative bg-white p-10 rounded-xl text-slate-500 text-center'>
         {state === 'Login' ?<div>
@@ -44,7 +44,7 @@ const Login = () => {
         
         {state === 'Login' && <p className='text-sm text-blue-600 my-4 cursor-pointer text-left'>Forgot password?</p>}
 
-        <button className='bg-blue-600 w-full text-white py-2 rounded-full'>{state === 'Login' ? 'Login' : 'Create Account'}</button>
+        <button className='bg-blue-600 w-full text-white py-2 rounded-full cursor-pointer'>{state === 'Login' ? 'Login' : 'Create Account'}</button>
 
         {state === 'Login' ? <p className='mt-5 text-center'>Don't have an account? <span className='text-blue-600 cursor-pointer' onClick={()=>setState('Sign Up')}>Sign Up</span></p>
         :
