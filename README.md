@@ -38,7 +38,11 @@ AI-powered image generation web application built with the MERN stack. Generate 
 
 ### Buy Credits
 
-![Buy Credits](screenshots/payment.png)
+![Buy Credits](screenshots/buy.png)
+
+### Payment Gateway
+
+![Payment](screenshots/payment.png)
 
 ---
 
